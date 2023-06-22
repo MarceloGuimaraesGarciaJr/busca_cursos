@@ -1,0 +1,23 @@
+{
+    "name": "marceloguimaraesgarciajr/buscador-cursos",
+    "description": "Projeto que busca os cursos no site da alura",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Alura\\BuscadorDeCursos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Marcelo Guimarães Garcia Junior"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.7",
+        "symfony/dom-crawler": "^4.4",
+        "symfony/css-selector": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
